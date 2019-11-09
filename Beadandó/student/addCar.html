@@ -1,0 +1,27 @@
+<form action="/addCar" method="post">
+    <table>
+        <tr>
+            <td>Name:</td><td><input id="name" name="name" type="text" placeholder="Name" required></td>
+        </tr>
+        <tr>
+            <td>Consumption:</td><td><input id="consumption" name="consumption" type="text" placeholder="Consumption" required></td>
+        </tr>
+        <tr>
+            <td>Color:</td><td><input id="color" name="color" type="text" placeholder="Color" required></td>
+        </tr>
+        <tr>
+            <td>Manufacturer:</td><td><select id="manufacturer" name="manufacturer"></select></td>
+        </tr>
+        <tr>
+            <td>Available:</td><td><select id="available" name="available"><option value="1">Yes</option><option value="0">No</option></select></td>
+        </tr>
+        <tr>
+            <td>Year:</td><td><input id="year" name="year" type="text" placeholder="Year" required></td>
+        </tr>
+        <tr>
+            <td>Horsepower:</td><td><input id="horsepower" name="horsepower" type="number" placeholder="Horsepower" required></td>
+        </tr>
+        <tr><td colspan="2"><input type="submit" value="Add"></td></tr>
+    </table>
+    <script>getManufacturerName();</script>
+</form>
