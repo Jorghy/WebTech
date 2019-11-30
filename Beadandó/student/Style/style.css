@@ -34,6 +34,7 @@ body {
 }
 
 .manufacturer {
+    display: inline;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
@@ -55,6 +56,10 @@ td {
 
 select {
     width: 160px;
+}
+
+.disible {
+    visibility: hidden;
 }
 
 .footer {

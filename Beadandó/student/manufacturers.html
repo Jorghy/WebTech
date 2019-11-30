@@ -1,12 +1,17 @@
 <h2>Manufacturers:</h2>
-<div id="manufacturer" class="manufacturer">
-    <table id="man_table" class="car_table">
-        <tr>
-            <th>Name</th>
-            <th>Country</th>
-            <th>Founded</th>
-        </tr>
-    </table>
-    <input type="button" class="addCar" value="Add Manufacturer" onclick="loadAddManufacturer()"  />
+<div class="manufacturer">
+    <div id="manufacturer" style="float: left; margin-left: 200px">
+        <table id="man_table" class="car_table">
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Founded</th>
+            </tr>
+        </table>
+        <input id="addManu" type="button" class="addCar" value="Add Manufacturer" onclick="loadAddManufacturer()"  />
+    </div>
+    <div id="carByManu" style="float: right; margin-right: 200px">
+        <table id="carByManu_table"></table>
+    </div>
 </div>
 <script>getManufacturerTable();</script>
